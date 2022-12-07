@@ -1,0 +1,206 @@
+﻿@{
+    ViewData["Title"] = "Report";
+}
+
+@model ResultViewModel
+
+<form asp-action="Report" asp-controller="Home" method="get">
+    <div class="container">
+        <div class="text-center">
+            <h2>Решение задачи минимизации отходов от раскроя рулонных заготовок</h2><br>
+            <h3>Исходные данные</h3>
+        </div>
+
+        <div class="row">
+            <table class="table table-bordered" width="1200px">
+                <thead>
+                    <tr>
+                        <th style="text-align: center;" colspan="9">Количество заготовок на 1 изделие по соответствующему способу раскроя, шт</th>
+                    </tr>
+                    <tr>
+
+                        <th style="text-align: center;">Вид заготовки</th>
+                        <th style="text-align: center;">Площадь, см2</th>
+                        <th style="text-align: center;">1</th>
+                        <th style="text-align: center;">2</th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">4</th>
+                        <th style="text-align: center;">5</th>
+
+                        <th style="text-align: center;">Количество заготовок на 1 изделие, шт</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="text-align: center;">А1</td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A1_Square" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A1_1" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A1_2" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A1_3" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A1_4" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A1_5" readonly></td>
+
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text border-0" asp-for="dataViewModel.A1_AmountOn1" readonly></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">А2</td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A2_Square" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A2_1" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A2_2" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A2_3" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A2_4" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A2_5" readonly></td>
+
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text border-0" asp-for="dataViewModel.A2_AmountOn1" readonly></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">А3</td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A3_Square" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A3_1" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A3_2" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A3_3" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A3_4" readonly></td>
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text col-7 border-0" asp-for="dataViewModel.A3_5" readonly></td>
+
+                        <td style="text-align: center;"><input type="text" style="text-align: center;" class="table-input-text border-0" asp-for="dataViewModel.A3_AmountOn1" readonly></td>
+                    </tr>
+                  
+                </tbody>
+            </table>
+
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Параметр</th>
+                        <th>Значение</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Заданная длина полос проката см2.</td>
+                        <td><input type="text" style="text-align: center;" class="table-input-text border-0" asp-for="dataViewModel.F" readonly></td>
+                    </tr>
+                    <tr>
+                        <td>Всего необходимо изготовить шт. изделий.</td>
+                        <td><input type="text" style="text-align: center;" class="table-input-text border-0" asp-for="dataViewModel.R" readonly></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="text-center">
+            <h3>Расчетные показатели</h3>
+        </div>
+
+        <div class="row">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Наименование показателя, ед. изм.</th>
+                            <th>Величина</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Величина целевой функции</td>
+                            <td><input type="text" class="table-input-text border-0" asp-for="Cel" readonly></td>
+                        </tr>
+                     
+                    </tbody>
+                </table>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>X1</th>
+                            <th>X2</th>
+                            <th>X3</th>
+                            <th>X4</th>
+                            <th>X5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> <input type="text" class="table-input-text col-7 border-0" asp-for="X1" id="X1" readonly></td>
+                            <td> <input type="text" class="table-input-text col-7 border-0" asp-for="X2" id="X2" readonly></td>
+                            <td> <input type="text" class="table-input-text col-7 border-0" asp-for="X3" id="X3" readonly></td>
+                            <td> <input type="text" class="table-input-text col-7 border-0" asp-for="X4" id="X4" readonly></td>
+                            <td> <input type="text" class="table-input-text col-7 border-0" asp-for="X5" id="X5" readonly></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Отходы 1</th>
+                            <th>Отходы 2</th>
+                            <th>Отходы 3</th>
+                            <th>Отходы 4</th>
+                            <th>Отходы 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="text" class="table-input-text col-7 border-0" asp-for="Waste1" readonly></td>
+                            <td><input type="text" class="table-input-text col-7 border-0" asp-for="Waste2" readonly></td>
+                            <td><input type="text" class="table-input-text col-7 border-0" asp-for="Waste3" readonly></td>
+                            <td><input type="text" class="table-input-text col-7 border-0" asp-for="Waste4" readonly></td>
+                            <td><input type="text" class="table-input-text col-7 border-0" asp-for="Waste5" readonly></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+
+        <div class="chart">
+            <canvas id="myChart"></canvas>
+        </div>
+               
+            </div>
+            <div class="col-2"></div>
+        
+    
+    <div class="row my-3">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <a class="btn btn-primary w-100" onclick="this.style.display='none'; window.print(); setTimeout(this, 2000, style.display='block')">Сохранить</a>
+        </div>
+        <div class="col-4"></div>
+        </div>
+        <div class="row my-5">
+            <div class="col-4 my-4">
+                <div>Дата формирования документа</div>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4 my-4">
+                <div id="current_date_time_block"></div>
+                <script type="text/javascript">
+                    /* функция добавления ведущих нулей */
+                    /* (если число меньше десяти, перед числом добавляем ноль) */
+                    function zero_first_format(value) {
+                        if (value < 10) {
+                            value = '0' + value;
+                        }
+                        return value;
+                    }
+                    /* функция получения текущей даты и времени */
+                    function date_time() {
+                        var current_datetime = new Date();
+                        var day = zero_first_format(current_datetime.getDate());
+                        var month = zero_first_format(current_datetime.getMonth() + 1);
+                        var year = current_datetime.getFullYear();
+                        var hours = zero_first_format(current_datetime.getHours());
+                        var minutes = zero_first_format(current_datetime.getMinutes());
+                        var seconds = zero_first_format(current_datetime.getSeconds());
+
+                        return day + "." + month + "." + year + " " + hours + ":" + minutes + ":" + seconds;
+                    }
+                    /* выводим текущую дату и время на сайт в блок с id "current_date_time_block" */
+                    document.getElementById('current_date_time_block').innerHTML = date_time();
+                </script>
+            </div>
+        </div>
+</form>

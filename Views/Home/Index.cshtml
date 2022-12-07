@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model DataViewModel
+
+<div class="text-left">
+    <h1>Решение задачи минимизации отходов от раскроя рулонных заготовок</h1><br>
+    <h1 class="display-4">Исходные данные для расчёта
+    </h1>
+
+    <form asp-action="Result" asp-controller="Home" method="get">
+        <table class="table table-bordered">
+            <tr>
+                <th scope="col" rowspan="2">Вид заготовки</th>
+                <th scope="col" rowspan="2">Площадь поверхности заготовки, см2</th>
+                <th scope="col" colspan="5">Количество заготовок на 1 изделие по соответствующему способу раскроя, шт.</th>
+                <th scope="col" rowspan="2">Количество заготовок на 1 изделие, шт.</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
+            <tr>
+                <th>A1</th>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A1_Square">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A1_1">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A1_2">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A1_3">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A1_4">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A1_5">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A1_AmountOn1">
+                </td>
+            </tr>
+            <tr>
+                <th>A2</th>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A2_Square">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A2_1">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A2_2">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A2_3">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A2_4">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A2_5">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A2_AmountOn1">
+                </td>
+            </tr>
+            <tr>
+                <th>A3</th>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A3_Square">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A3_1">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A3_2">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A3_3">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A3_4">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A3_5">
+                </td>
+                <td>
+                    <input required type="number" min="0" class="table-input-text" asp-for="A3_AmountOn1">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9">
+                    <table class="table table-bordered mb-0">
+                        <th>Заданная длина полос проката F, см:</th>
+                        <td>
+                            <input required type="number" min="0" class="table-input-text" asp-for="F">
+                        </td>
+                        <th>Необходимое количество изделий R, шт:</th>
+                        <td>
+                            <input required type="number" min="0" class="table-input-text" asp-for="R">
+                        </td>
+                    </table>
+                </td>
+
+            </tr>
+
+        </table>
+
+        <input class="btn btn-primary" type="submit" value="Рассчитать" />
+    </form>
+</div>
