@@ -117,3 +117,46 @@ C:\Users\burda\OneDrive\Рабочий стол\лабораторные мод�
 C:\Users\burda\OneDrive\Рабочий стол\лабораторные моделирование\LR3\obj\Debug\net6.0\LR3_Modelirovanie.pdb
 C:\Users\burda\OneDrive\Рабочий стол\лабораторные моделирование\LR3\obj\Debug\net6.0\LR3_Modelirovanie.genruntimeconfig.cache
 C:\Users\burda\OneDrive\Рабочий стол\лабораторные моделирование\LR3\obj\Debug\net6.0\ref\LR3_Modelirovanie.dll
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\appsettings.json
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\LR3_Modelirovanie.staticwebassets.runtime.json
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\LR3_Modelirovanie.exe
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\LR3_Modelirovanie.deps.json
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\LR3_Modelirovanie.runtimeconfig.json
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\LR3_Modelirovanie.dll
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\LR3_Modelirovanie.pdb
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\Google.OrTools.dll
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\runtimes\linux-arm64\native\google-ortools-native.so
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\runtimes\linux-arm64\native\libortools.so.9
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\runtimes\linux-x64\native\google-ortools-native.so
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\runtimes\linux-x64\native\libortools.so.9
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\runtimes\osx-arm64\native\google-ortools-native.dylib
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\runtimes\osx-arm64\native\libortools.9.dylib
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\runtimes\osx-x64\native\google-ortools-native.dylib
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\runtimes\osx-x64\native\libortools.9.dylib
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\bin\Debug\net6.0\runtimes\win-x64\native\google-ortools-native.dll
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.csproj.AssemblyReference.cache
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.AssemblyInfoInputs.cache
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.AssemblyInfo.cs
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.csproj.CoreCompileInputs.cache
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.RazorAssemblyInfo.cache
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.RazorAssemblyInfo.cs
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\staticwebassets\msbuild.LR3_Modelirovanie.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\staticwebassets\msbuild.build.LR3_Modelirovanie.props
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LR3_Modelirovanie.props
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LR3_Modelirovanie.props
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\scopedcss\bundle\LR3_Modelirovanie.styles.css
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\scopedcss\projectbundle\LR3_Modelirovanie.bundle.scp.css
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.csproj.CopyComplete
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.dll
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\refint\LR3_Modelirovanie.dll
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.pdb
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\LR3_Modelirovanie.genruntimeconfig.cache
+C:\Users\burda\OneDrive\Рабочий стол\LR3\LR3_optim\obj\Debug\net6.0\ref\LR3_Modelirovanie.dll

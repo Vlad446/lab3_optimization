@@ -20,15 +20,16 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Величина целевой функции</td>
+                            <td>Величина целевой функции, см² (суммарные отходы от раскроя, min)</td>
                             <td><input type="text" class="table-input-text border-0" asp-for="Cel" readonly></td>
                         </tr>
                    
                     </tbody>
-                </table>
-                <table class="table">
+                </table>                
+                <div style="text-align: center;font-weight: bold">Количество рулонов материала, необходимое для раскроя на заготовки по j-му способу, шт</div>
+                <table class="table">                    
                     <thead>
-                        <tr>
+                         <tr>
                             <th>X1</th>
                             <th>X2</th>
                             <th>X3</th>
@@ -46,7 +47,7 @@
                         </tr>
                     </tbody>
                 </table>
-
+                <div style="text-align: center;font-weight: bold">Величина отходов материалов по способам, см²</div>
                 <table class="table">
                     <thead>
                         <tr>
@@ -59,22 +60,26 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><input type="text" class="table-input-text border-0" asp-for="Waste1" readonly></td>
-                            <td><input type="text" class="table-input-text border-0" asp-for="Waste2" readonly></td>
-                            <td><input type="text" class="table-input-text border-0" asp-for="Waste3" readonly></td>
-                            <td><input type="text" class="table-input-text border-0" asp-for="Waste4" readonly></td>
-                            <td><input type="text" class="table-input-text border-0" asp-for="Waste5" readonly></td>
+                            <td><input type="text" class="table-input-text border-0" value="@string.Format("{0:f0}",Model.Waste1)" readonly></td>
+                            <td><input type="text" class="table-input-text border-0" value="@string.Format("{0:f0}",Model.Waste2)" readonly></td>
+                            <td><input type="text" class="table-input-text border-0" value="@string.Format("{0:f0}",Model.Waste3)" readonly></td>
+                            <td><input type="text" class="table-input-text border-0" value="@string.Format("{0:f0}",Model.Waste4)" readonly></td>
+                            <td><input type="text" class="table-input-text border-0" value="@string.Format("{0:f0}",Model.Waste5)" readonly></td>
+                           
+                         
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
 
-    
-                    <canvas id="myChart"></canvas>
-                 
+         
+                       
     </div>
-
+    <div class="container"; style="text-align: center; max-width: 800px;">
+        <canvas id='myChart'> </canvas>
+    </div>
+    <div style="margin-top:40px;"></div>
     <div class="row">
         <div class="col-5"></div>
                 <div class="col-3">

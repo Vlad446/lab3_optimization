@@ -3,7 +3,7 @@
 }
 @model DataViewModel
 
-<div class="text-left">
+<div class="text-center">
     <h1>Решение задачи минимизации отходов от раскроя рулонных заготовок</h1><br>
     <h1 class="display-4">Исходные данные для расчёта
     </h1>
@@ -12,7 +12,7 @@
         <table class="table table-bordered">
             <tr>
                 <th scope="col" rowspan="2">Вид заготовки</th>
-                <th scope="col" rowspan="2">Площадь поверхности заготовки, см2</th>
+                <th scope="col" rowspan="2">Площадь поверхности заготовки, см²</th>
                 <th scope="col" colspan="5">Количество заготовок на 1 изделие по соответствующему способу раскроя, шт.</th>
                 <th scope="col" rowspan="2">Количество заготовок на 1 изделие, шт.</th>
             </tr>
@@ -26,7 +26,7 @@
             <tr>
                 <th>A1</th>
                 <td>
-                    <input required type="number" min="0" class="table-input-text" asp-for="A1_Square">
+                    <input required type="number" step="0.1" min="0" class="table-input-text" asp-for="A1_Square">
                 </td>
                 <td>
                     <input required type="number" min="0" class="table-input-text" asp-for="A1_1">
@@ -50,7 +50,7 @@
             <tr>
                 <th>A2</th>
                 <td>
-                    <input required type="number" min="0" class="table-input-text" asp-for="A2_Square">
+                    <input required type="number" step="0.1" min="0" class="table-input-text" asp-for="A2_Square">
                 </td>
                 <td>
                     <input required type="number" min="0" class="table-input-text" asp-for="A2_1">
@@ -74,7 +74,7 @@
             <tr>
                 <th>A3</th>
                 <td>
-                    <input required type="number" min="0" class="table-input-text" asp-for="A3_Square">
+                    <input required type="number" step="0.1" min="0" class="table-input-text" asp-for="A3_Square">
                 </td>
                 <td>
                     <input required type="number" min="0" class="table-input-text" asp-for="A3_1">
@@ -100,7 +100,7 @@
                     <table class="table table-bordered mb-0">
                         <th>Заданная длина полос проката F, см:</th>
                         <td>
-                            <input required type="number" min="0" class="table-input-text" asp-for="F">
+                            <input required type="number" step="0.1" min="0" class="table-input-text" asp-for="F">
                         </td>
                         <th>Необходимое количество изделий R, шт:</th>
                         <td>

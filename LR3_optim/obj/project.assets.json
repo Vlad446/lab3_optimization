@@ -239,11 +239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\burda\\OneDrive\\Рабочий стол\\лабораторные моделирование\\LR3\\LR3_Modelirovanie.csproj",
+      "projectUniqueName": "C:\\Users\\burda\\OneDrive\\Рабочий стол\\LR3\\LR3_optim\\LR3_Modelirovanie.csproj",
       "projectName": "LR3_Modelirovanie",
-      "projectPath": "C:\\Users\\burda\\OneDrive\\Рабочий стол\\лабораторные моделирование\\LR3\\LR3_Modelirovanie.csproj",
+      "projectPath": "C:\\Users\\burda\\OneDrive\\Рабочий стол\\LR3\\LR3_optim\\LR3_Modelirovanie.csproj",
       "packagesPath": "C:\\Users\\burda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\burda\\OneDrive\\Рабочий стол\\лабораторные моделирование\\LR3\\obj\\",
+      "outputPath": "C:\\Users\\burda\\OneDrive\\Рабочий стол\\LR3\\LR3_optim\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
